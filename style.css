@@ -1,0 +1,130 @@
+@font-face {
+  font-family: 'FantasqueSansM Nerd Font';
+  src: url('FantasqueSansMono/FantasqueSansMNerdFont-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FantasqueSansM Nerd Font';
+  src: url('FantasqueSansMono/FantasqueSansMNerdFont-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FantasqueSansM Nerd Font';
+  src: url('FantasqueSansMono/FantasqueSansMNerdFont-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+* {
+	border-radius: 0px;
+	--cl-black:       #141617;
+	--cl-gray-0:      #1d2021;
+	--cl-gray-1:      #1d2021;
+	--cl-gray-2:      #282828;
+	--cl-gray-3:      #282828;
+	--cl-gray-4:      #3c3836;
+	--cl-gray-5:      #3c3836;
+	--cl-gray-6:      #504945;
+	--cl-gray-7:      #7c6f64;
+	--cl-gray-8:      #928374;
+	--cl-gray-9:      #a89984;
+	--cl-gray-10:     #d4be98;
+	--cl-white:       #ddc7a1;
+	--cl-red-6:       #ea6962;
+	--cl-red-7:       hsl(4, 75%, 75%);
+	--cl-orange-6:    #e78a4e;
+	--cl-orange-7:    hsl(26, 84%, 74%);
+	--cl-yellow:      #d8a657;
+	--cl-green-6:     #a9b665;
+	--cl-green-7:     hsl(120, 42%, 75%);
+	--cl-cyan-6:      #89b482;
+	--cl-cyan-7:      hsl(160, 32%, 75%);
+	--cl-blue-6:      #7daea3;
+	--cl-blue-8:      hsl(201, 55%, 80%);
+	--cl-magenta-7:   #d3869b;
+	--cl-magenta-8:   hsl(320, 61%, 80%);
+}
+
+body {
+	margin: 5vh 10vw 5vh 10vw;
+	font-family: 'FantasqueSansM Nerd Font', monospace;
+	background-color: var(--cl-black);
+	color: var(--cl-white);
+}
+
+h2 {
+  margin-top: 2em;
+}
+
+a:link, a:visited {
+	color: var(--cl-magenta-7);
+	border: 2px solid var(--cl-magenta-7);
+	padding: 4px 8px;
+	text-decoration: none;
+	margin-bottom: 0.5em;
+	line-height: 240%;
+}
+/* a:visited,  */
+a:active {
+	color: var(--cl-blue-6);
+}
+a:hover {
+	color: var(--cl-black);
+	background-color: var(--cl-blue-6);
+	border: 2px solid #0000;
+}
+.color_blue {
+	color: var(--cl-blue-6);
+}
+.color_green {
+	color: var(--cl-green-6);
+}
+.color_yellow {
+	color: var(--cl-yellow);
+}
+.color_red {
+	color: var(--cl-red-6);
+}
+
+.block {
+  background-color: var(--cl-gray-0);
+	border: 2px solid var(--cl-gray-2);
+	padding: 16px 32px;
+	margin-bottom: 0.75em;
+}
+
+.entries {
+  padding: 1em;
+	margin-bottom: 0.5em;
+}
+
+.subtitle summary {
+  font-size: 1.5em;  
+  font-weight: bold;
+	color: var(--cl-white);
+	border: 2px solid #0000;
+	border-bottom-color: var(--cl-gray-2);
+	padding: 16px;
+	text-decoration: none;
+	margin-bottom: 0.5em;
+}
+
+.subtitle summary:hover {
+	border-color: var(--cl-orange-6);
+}
+
+.subtitle:open summary {
+	border-color: var(--cl-orange-6);
+}
+
+details {
+	margin-bottom: 1em;
+}
+
+p {
+  overflow-wrap: break-word;
+}
