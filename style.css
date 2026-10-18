@@ -19,6 +19,14 @@
   font-style: italic;
 }
 
+@font-face {
+  font-family: 'FantasqueSansM Nerd Font';
+  src: url('FantasqueSansMono/FantasqueSansMNerdFont-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+
 * {
 	border-radius: 0px;
 	--cl-black:       #141617;
